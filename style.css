@@ -24,6 +24,11 @@ table, td, tr {
   /* border-collapse: collapse; */
 }
 
+img {
+  height: 80px;
+  width: 15px;
+}
+
 button {
   background-color: #e7e7e7;
   color: black;
@@ -36,3 +41,15 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
+
+#button {
+    line-height: 12px;
+    width: 18px;
+    font-size: 8pt;
+    font-family: tahoma;
+    margin-top: 1px;
+    margin-right: 2px;
+    position:absolute;
+    top:0;
+    right:0;
+  }

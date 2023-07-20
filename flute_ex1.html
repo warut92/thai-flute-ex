@@ -8,39 +8,31 @@
   <link rel="stylesheet" href="./style.css">
 </head>
   <body>
+    <input id="button" type="button" name="" value="/">
     <center>
       <h3>แบบฝึกการเป่าขลุ่ยเพียงออ</h3>
       <h>แบบฝึกที่ 1</h>
+      <div id="flute-img" style="display:none">
+        <img src="./img/0.png"/>
+      </div>
       <table style="width:300px;table-layout:fixed">
         <thead style="text-align:center">
           <tr>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ดํ</span></td>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ท</span></td>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ล</span></td>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ซ</span></td>
+            <td id="bar_1" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ดํ</span></td>
+            <td id="bar_2" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ท</span></td>
+            <td id="bar_3" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ล</span></td>
+            <td id="bar_4" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ซ</span></td>
           </tr>
           <tr>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ซ</span></td>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ล</span></td>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ท</span></td>
-            <td onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ดํ</span></td>
+            <td id="bar_5" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ซ</span></td>
+            <td id="bar_6" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ล</span></td>
+            <td id="bar_7" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ท</span></td>
+            <td id="bar_8" onmouseover="addBgColor(this)" onmouseout="whiteBgColor(this)">---ดํ</span></td>
           </tr>
         </thead>
       </table>
       <br>
       <br>
-      <br>
   </body>
-  <script>
-    function addBgColor(x) {
-      x.style.backgroundColor = "red"
-    }
-
-    function whiteBgColor(x) {
-      x.style.backgroundColor = "white"
-    }
-  </script>
-
-</body>
-
+  <script src="./app.js" charset="utf-8"></script>
 </html>
