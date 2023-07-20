@@ -43,6 +43,7 @@ function whiteBgColor(x) {
 
 let i = 0;
 addEventListener("keydown", (e) => {
+  console.log('E', e)
   if (e.keyCode == "39") {
     i++
   } else if (e.keyCode == "37") {
@@ -65,3 +66,14 @@ addEventListener("keydown", (e) => {
   }
   document.getElementById(`bar_${lessThan_i}`).style.backgroundColor = "white";
 })
+
+addEventListener("keyup", (e) => {
+    if (e.keyCode == "40") {
+      document.getElementById(`bar_${i}`).style.backgroundColor = "red";
+    }
+  })
+  addEventListener("keydown", (e) => {
+      if (e.keyCode == "40") {
+        document.getElementById(`bar_${i}`).style.backgroundColor = "white";
+      }
+    })
