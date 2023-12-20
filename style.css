@@ -20,13 +20,25 @@ table, td, tr {
   max-width: 800px;
   margin: 10px;
   overflow: hidden;
-  border: 1px solid black;
+  border: 1px solid;
   /* border-collapse: collapse; */
 }
 
 img {
   height: 80px;
   width: 15px;
+}
+
+.flutist {
+  height: 200px;
+  width: auto;
+}
+
+.borderText {
+  width: 300px;
+ border-width:3px;
+ border-style:solid;
+ border-color:#287EC7;
 }
 
 button {
